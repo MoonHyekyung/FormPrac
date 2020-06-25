@@ -16,5 +16,17 @@ namespace FormPrac
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CustomForm cs = new CustomForm();
+            cs.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CustomForm cs = new CustomForm();
+            cs.ShowDialog();
+        }
     }
 }
